@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(lime 0%, green 100%);
+    background-size: cover;
+}
+h1{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lime;
+    width: 500px;
+}
+#snap{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 5px maroon;
+}
+canvas{
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colors{
+    from{box-shadow: 2px 2px 38px navy;}
+    to{box-shadow: 2px 2px 38px orange;}
+}
